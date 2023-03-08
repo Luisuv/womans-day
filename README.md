@@ -1,2 +1,2 @@
 # birthday-gift
-Birthday gift page for my best friend crated only with CSS
+Page of celebrate a special day crated only with CSS
