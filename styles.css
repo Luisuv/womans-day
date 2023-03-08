@@ -1,8 +1,12 @@
 body {
     text-align: center;
     font-family: 'Happy Monkey', cursive;
-    background: linear-gradient(#F73B97FF, #8A2BE2);
-    color: #ffffff;
+    background-image: url("https://media.giphy.com/media/AdtvZ8gu9gZ32/giphy.gif");
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    background-size: cover;
+        /* background: linear-gradient(#da9e9e, rgb(209, 119, 119)); */
+    color: #DA395B;
 }
 
 h1, h2, h3, h4, p {
@@ -10,9 +14,9 @@ h1, h2, h3, h4, p {
 }
 
 #bff-img {
-    width: 150px;
-    border-radius: 50%;
-    border: 6px solid #EFB0C9;
+    width: 200px;
+    border-radius: 5%;
+    border: 6px solid #ffffff;
     margin-bottom: 10px;
 }
 
@@ -48,38 +52,42 @@ h1, h2, h3, h4, p {
     margin-top: 0;
 }
 
-#gift-img-cheers {
-    height: 200px;
+#gift-img-cblanco {
+    height: 400px;
 }
 
 .gift-img {
     margin: 20px auto;
-    max-width: 400px;
+    max-width: 520px;
     height: 400px;
     border: 6px solid white;
     border-radius: 10px;
-    background-image: url("images/gift-cover.jpg");
+    background-image: url("images/feliz-dia-mujer.webp");
     background-size: cover;
 }
 
 #gift-img-happy:hover {
-    background-image: url("images/happy.gif");
+    background-image: url("https://media.giphy.com/media/j0d7S4Nn9wQ7xQVder/giphy.gif");
+}
+
+#gift-img-hand:hover {
+    background-image: url("https://media.giphy.com/media/8cgqFlUYWOdmqmsTbr/giphy.gif");
+}
+
+#gift-img-kiss:hover {
+    background-image: url("https://media.giphy.com/media/Q2EHFZX0JWnXzp5lZ1/giphy.gif");
+    display: flex;
+    justify-content: center;
+    width: 100%;
 }
 
 #gift-img-hot:hover {
-    background-image: url("images/hot.gif");
+    background-image: url("https://media.giphy.com/media/K1GUCZeqI1PIbIYeZQ/giphy.gif");
 }
 
-#gift-img-genius:hover {
-    background-image: url("images/genius.gif");
-}
-
-#gift-img-badass:hover {
-    background-image: url("images/badass.gif");
-}
-
-#gift-img-cheers:hover {
-    background-image: url("images/cheers.gif");
+#gift-img-blanco:hover {
+    background-image: url("https://media.giphy.com/media/3ktIXGBcLFY5UVA64s/giphy.gif");
+    height: 500px;
 }
 
 #footer {
@@ -91,15 +99,3 @@ h1, h2, h3, h4, p {
 a {
     color: white;
 }
-
-/* 
-Add the footer paragraph according to the design. 
-Configure the anchor tag to open the link in a new tab.
-Forgotten how to do it? Google it! 
-
-Link: 
-https://scrimba.com/learn/htmlandcss
-
-Text:
-Want to create your own Birthday GIFt site? Take this HTML & CSS course.
-*/
